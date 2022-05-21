@@ -57,6 +57,7 @@ li {
   font-size: 1.3em;
 }
 .header-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  margin: 1em;
+  grid-gap: 1em;
 }
