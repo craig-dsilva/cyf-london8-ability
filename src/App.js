@@ -10,11 +10,16 @@ import "./App.css";
 
 const App = () => {
   const [data, setdata] = useState(initaildata);
+  const [subjectId, setSubjectId] = useState();
+
+  const selectModule = (id) => {
+    setSubjectId(id);
+  };
 
   return (
     <>
-      <Header data={data} />
-      <Main subject={data[0]} />
+      <Header data={data} moduleHandler={selectModule} />
+      <Main subject={data[subjectId]} />
       <Footer />
     </>
   );

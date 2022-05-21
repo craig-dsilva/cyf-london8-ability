@@ -1,7 +1,7 @@
 import React from "react";
 
 const Main = ({ subject }) => {
-  return (
+  return subject ? (
     <main>
       <div className="container" key={subject.id}>
         <h2>{subject.title}</h2>
@@ -23,6 +23,8 @@ const Main = ({ subject }) => {
         })}
       </div>
     </main>
+  ) : (
+    <p>Please choose a module</p>
   );
 };
 

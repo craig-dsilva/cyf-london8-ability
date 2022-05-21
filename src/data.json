@@ -121,5 +121,169 @@
       "Iterate Through the Keys of an Object with a for...in Statement",
       "Generate an Array of All Object Keys with Object.keys()"
     ]
+  },
+  {
+    "id": 8,
+    "title": "JavaScript Core II - 1",
+    "objectives": [
+      "Define what an object ",
+      "Changing the properties of an object",
+      "Retrieve data from an object",
+      "Methods inside JavaScript objects",
+      "Objects built-in methods"
+    ],
+    "coursework": [
+      "JavaScript Challenges",
+      "Git and the Command Line",
+      "CodeWars",
+      "Read and Watch JS Object tutorial"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "JavaScript Core II - 2",
+    "objectives": [
+      "Define what the DOM is",
+      "Use query selectors to retrieve elements",
+      "Use event listeners to respond to events",
+      "Create DOM elements using JavaScript",
+      "Manipulate DOM elements"
+    ],
+    "coursework": [
+      "JavaScript Challenges",
+      "JavaScript Projects",
+      "CodeWars",
+      "Study these DOM materials"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "JavaScript Core II - 3",
+    "objectives": [
+      "Define the difference between synchronous and asynchronous code",
+      "Pass a function to another function as a parameter",
+      "Define a client's and server's role in the client/server architecture",
+      "List the steps that a browser does when loading a website"
+    ],
+    "coursework": [
+      "JavaScript Challenges",
+      "Learn About Git Branches",
+      "Codeacademy Course"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "JavaScript Core III - 1",
+    "objectives": [
+      "Debugging",
+      "Why is Debugging Important?",
+      "The Debugging Mindset",
+      "Types of Errors",
+      "The Debugging Framework"
+    ],
+    "coursework": [
+      "Install ESLint",
+      "Thinking like a Programmer",
+      "TV Show Project"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "JavaScript Core III - 2",
+    "objectives": [
+      "Methods",
+      "Headers",
+      "Status codes",
+      "Content type",
+      "What are APIs and how to interact with them"
+    ],
+    "coursework": ["Code along", "JavaScript Challenges"]
+  },
+  {
+    "id": 13,
+    "title": "JavaScript Core III - 3",
+    "objectives": ["TV Show Project - all levels"],
+    "coursework": [
+      "Where do I get the TV episode data from?",
+      "Array Destructing"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "React Week 1",
+    "objectives": [
+      "What is React?",
+      "What is a component?",
+      "Rendering with React",
+      "JSX",
+      "Let's create a React app",
+      "React Components",
+      "Embedding JavaScript into JSX"
+    ],
+    "coursework": [
+      "CYF Hotel app",
+      "Deploying apps on Netlify",
+      "Creating JSX Elements",
+      "Render HTML Elements to the DOM",
+      "Define an HTML Class in JSX",
+      "Learn About Self-Closing JSX Tags",
+      "Create a Stateless Functional Component"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "React Week 2",
+    "objectives": ["Event Handlers", "Re-rendering components", "State"],
+    "coursework": ["High Score Table", "Baby Names Picker"]
+  },
+  {
+    "id": 16,
+    "title": "React Week 3",
+    "objectives": [
+      "Fetching Data in React",
+      "useEffect()",
+      "Conditional rendering",
+      "Forms",
+      "useState()"
+    ],
+    "coursework": ["Countries app", "Job Listing app", "TFL Lines Challenge"]
+  },
+  {
+    "id": 17,
+    "title": "Node - I",
+    "objectives": [
+      "Define what an API is used for",
+      "Use Glitch to deploy and edit",
+      "Using npm to start a node server",
+      "Explain what express is",
+      "Use express to create an API",
+      "Implement routing to return different resources",
+      "Implement query params"
+    ],
+    "coursework": [
+      "Quote Server API Project",
+      "Watch Express JS Crash Course",
+      "Chrome Dev Tools"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Node - II",
+    "objectives": [
+      "Define what each part of CRUD is and what it does",
+      "Process a GET request using Express",
+      "Process a POST request",
+      "Process a DELETE request"
+    ],
+    "coursework": ["Chat Server API Project", "Prepare Presentations"]
+  },
+  {
+    "id": 19,
+    "title": "Node - III",
+    "objectives": [
+      "Process a PUT request using Express and Node to update data in memory",
+      "Upload their node app to the internet"
+    ],
+    "coursework": ["FreeCodeCamp course", "Hotel Server"]
   }
 ]
