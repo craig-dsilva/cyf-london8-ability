@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "title": "HTML/CSS - 1",
+    "objectives": [
+      "HTML Anatomy",
+      "HTML Structure",
+      "CSS Anatomy",
+      "CSS Selectors",
+      "CSS Box Model",
+      "CSS Inheritance, Cascade and Specificity"
+    ],
+    "coursework": [
+      "Learn how to create our own webpage",
+      "Completion of the Flexbox Froggy game"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "HTML/CSS - 2",
+    "objectives": [
+      "Forms",
+      "Form controls",
+      "Labels",
+      "Form validation",
+      "Form submission",
+      "Form security"
+    ],
+    "coursework": [
+      "Design a form to collect your data",
+      "Choose form controls to help you validate the inputs",
+      "Evaluate your work with Devtools",
+      "Complete the Bikes For Refugees project"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "HTML/CSS - 3",
+    "objectives": [
+      "Responsive web design",
+      "Media queries",
+      "How can I test how a website looks on different screen sizes?",
+      "Flexbox"
+    ],
+    "coursework": [
+      "Create a Karma clone webpage",
+      "Complete a code review for a colleague on their Karma project."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "HTML/CSS - 4",
+    "objectives": [
+      "Devtools",
+      "Distinguishing the DOM API and the Accessiblity API"
+    ],
+    "coursework": [
+      "Create a Karma clone webpage",
+      "Complete a code review for a colleague on their Karma project."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "JavaScript Core I - 1",
+    "objectives": [
+      "console.log & typeof",
+      "Expressions",
+      "Write and call functions in JavaScript",
+      "Strings and Concatenation",
+      "Interpolation",
+      "Mathematical operators"
+    ],
+    "coursework": [
+      "Understanding Initialising & Uninitialised Variables",
+      "Doing Arithmetic",
+      "Compound Assignment With Augmented Operators",
+      "Global Scope and Functions",
+      "Local Scope and Functions",
+      "Return a Value from a Function with Return",
+      "Understanding Undefined Value returned from a Function",
+      "Assignment with a Returned Value"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Core I - 2",
+    "objectives": [
+      "Booleans",
+      "Comparison Operators",
+      "Conditionals",
+      "Logical Operators",
+      "Loops",
+      "Arrays"
+    ],
+    "coursework": [
+      "Understanding Boolean Values",
+      "Use Conditional Logic with If Statements",
+      "Comparison Operators",
+      "Else and Else If Statements"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "JavaScript Core I - 3",
+    "objectives": [
+      "Manipulating arrays and Objects",
+      "Array properties and methods",
+      "Array map",
+      "Array forEach",
+      "Array filter",
+      "Array find"
+    ],
+    "coursework": [
+      "Access an Array's Contents Using Bracket Notation",
+      "push() and pop()",
+      ", pop() and unshift()",
+      "splice() and slice()",
+      "The Spread Operator",
+      "Add Key-Value Pairs to JavaScript Objects",
+      "Access Property Names with Bracket Notation",
+      "Iterate Through the Keys of an Object with a for...in Statement",
+      "Generate an Array of All Object Keys with Object.keys()"
+    ]
+  }
+]
