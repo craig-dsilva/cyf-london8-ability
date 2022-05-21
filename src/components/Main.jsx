@@ -2,9 +2,9 @@ import React from "react";
 
 const Main = ({ subject }) => {
   return subject ? (
-    <main>
+    <main className="main">
       <div className="container" key={subject.id}>
-        <h2>{subject.title}</h2>
+        <h2 className="mainh2">{subject.title}</h2>
         <h3>Objectives</h3>
         {subject.objectives.map((objective, index) => {
           return (
