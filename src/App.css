@@ -40,7 +40,7 @@ li {
 }
 .footer {
   background-color: rgb(150, 1, 225);
-  /* color: rgb(61, 1, 103); */
+  color: #fff;
   font-weight: bold;
   padding-bottom: 5em;
 }
