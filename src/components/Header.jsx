@@ -10,7 +10,7 @@ const Header = ({ data, moduleHandler }) => {
             <div
               className="module"
               key={module.id}
-              onClick={() => moduleHandler(module.id - 1)}
+              onClick={() => moduleHandler(module.id)}
             >
               <button>{module.title}</button>
             </div>

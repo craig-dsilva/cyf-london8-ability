@@ -1,206 +1,346 @@
-[{
-		"id": 1,
-		"title": "HTML/CSS - 1",
-		"objectives": ["HTML Anatomy", "HTML Structure", "CSS Anatomy", "CSS Selectors", "CSS Box Model", 
-                       "CSS Inheritance, Cascade and Specificity"],
-		"coursework": ["Learn how to create our own webpage", "Completion of the Flexbox Froggy game"]
-	},
+[
+  {
+    "id": 0,
+    "title": "HTML/CSS - 1",
+    "objectives": [
+      "HTML Anatomy",
+      "HTML Structure",
+      "CSS Anatomy",
+      "CSS Selectors",
+      "CSS Box Model",
+      "CSS Inheritance, Cascade and Specificity"
+    ],
+    "coursework": [
+      "Learn how to create our own webpage",
+      "Completion of the Flexbox Froggy game"
+    ]
+  },
 
-	{
-		"id": 2,
-		"title": "HTML/CSS - 2",
-		"objectives": ["Forms", "Form controls", "Labels", "Form validation", "Form submission", "Form security"],
-		"coursework": ["Design a form to collect your data", "Choose form controls to help validate the inputs", 
-                       "Evaluate work with Devtools", "Complete the Bikes For Refugees project"]
-	},
+  {
+    "id": 1,
+    "title": "HTML/CSS - 2",
+    "objectives": [
+      "Forms",
+      "Form controls",
+      "Labels",
+      "Form validation",
+      "Form submission",
+      "Form security"
+    ],
+    "coursework": [
+      "Design a form to collect your data",
+      "Choose form controls to help validate the inputs",
+      "Evaluate work with Devtools",
+      "Complete the Bikes For Refugees project"
+    ]
+  },
 
-	{
-		"id": 3,
-		"title": "HTML/CSS - 3",
-		"objectives": ["Responsive web design", "Media queries", 
-                       "How can I test how a website looks on different screen sizes?", "Flexbox"],
-		"coursework": ["Create a Karma clone webpage", "Complete a code review for a colleague on their Karma project."]
-	},
+  {
+    "id": 2,
+    "title": "HTML/CSS - 3",
+    "objectives": [
+      "Responsive web design",
+      "Media queries",
+      "How can I test how a website looks on different screen sizes?",
+      "Flexbox"
+    ],
+    "coursework": [
+      "Create a Karma clone webpage",
+      "Complete a code review for a colleague on their Karma project."
+    ]
+  },
 
-	{
-		"id": 4,
-		"title": "HTML/CSS - 4",
-		"objectives": ["Devtools", "Distinguishing the DOM API and the Accessiblity API"],
-		"coursework": ["Create a Cakes Company webpage"]
-	},
+  {
+    "id": 3,
+    "title": "HTML/CSS - 4",
+    "objectives": [
+      "Devtools",
+      "Distinguishing the DOM API and the Accessiblity API"
+    ],
+    "coursework": ["Create a Cakes Company webpage"]
+  },
 
+  {
+    "id": 4,
+    "title": "JavaScript Core I - 1",
+    "objectives": [
+      "console.log & typeof",
+      "Expressions",
+      "Write and call functions in JavaScript",
+      "Strings and Concatenation",
+      "Interpolation",
+      "Mathematical operators"
+    ],
+    "coursework": [
+      "Understanding Initialising & Uninitialised Variables",
+      "Doing Arithmetic",
+      "Compound Assignment With Augmented Operators",
+      "Global Scope and Functions",
+      "Local Scope and Functions",
+      "Return a Value from a Function with Return",
+      "Understanding Undefined Value returned from a Function",
+      "Assignment with a Returned Value"
+    ]
+  },
 
-	{
-		"id": 5,
-		"title": "JavaScript Core I - 1",
-		"objectives": ["console.log & typeof", "Expressions", "Write and call functions in JavaScript", 
-                       "Strings and Concatenation", "Interpolation", "Mathematical operators"],
-		"coursework": ["Understanding Initialising & Uninitialised Variables", "Doing Arithmetic", 
-                       "Compound Assignment With Augmented Operators", "Global Scope and Functions", 
-                       "Local Scope and Functions", "Return a Value from a Function with Return", 
-                       "Understanding Undefined Value returned from a Function", 
-                       "Assignment with a Returned Value"]
-	},
+  {
+    "id": 5,
+    "title": "JavaScript Core I - 2",
+    "objectives": [
+      "Booleans",
+      "Comparison Operators",
+      "Conditionals",
+      "Logical Operators",
+      "Loops",
+      "Arrays"
+    ],
+    "coursework": [
+      "Understanding Boolean Values",
+      "Use Conditional Logic with If Statements",
+      "Comparison Operators",
+      "Else and Else If Statements"
+    ]
+  },
 
+  {
+    "id": 6,
+    "title": "JavaScript Core I - 3",
+    "objectives": [
+      "Manipulating Arrays and Objects",
+      "Array properties and methods",
+      "Array map",
+      "Array forEach",
+      "Array filter",
+      "Array find"
+    ],
+    "coursework": [
+      "Access an Array's Contents Using Bracket Notation",
+      "push() and pop()",
+      "shift() and unshift()",
+      "splice() and slice()",
+      "The Spread Operator",
+      "Add Key-Value Pairs to JavaScript Objects",
+      "Access Property Names with Bracket Notation",
+      "Iterate Through the Keys of an Object with a for...in Statement",
+      "Generate an Array of All Object Keys with Object.keys()"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "JavaScript Core II - 1",
+    "objectives": [
+      "Define what an object is in JavaScript",
+      "Objects Get and Set",
+      "Objects built-in methods"
+    ],
+    "coursework": [
+      "Changing the properties of an object",
+      "Retrieve data from an object",
+      "Methods inside JavaScript objects",
+      "Arrays of Objects",
+      "Loop through an object",
+      "Read and Watch JavaScript Object tutorial",
+      "Git and the Command Line"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "JavaScript Core II - 2",
+    "objectives": [
+      "The DOM",
+      "Define what the DOM is",
+      "Use query selectors to retrieve elements",
+      "Use event listeners to respond to events",
+      "Create DOM elements using JavaScript",
+      "Manipulate DOM elements"
+    ],
+    "coursework": [
+      "JavaScript and the DOM",
+      "DOM access methods",
+      "DOM modification",
+      "DOM events",
+      "Eloquent JavaScript - The Document Object Model",
+      "Coding Train - HTML/CSS/DOM"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "JavaScript Core II - 3",
+    "objectives": [
+      "Synchronous and Asynchronous programming",
+      "Define the difference between synchronous and asynchronous code",
+      "The Callstack",
+      "Callbacks",
+      "How does the web work?",
+      "Client/Server architecture"
+    ],
+    "coursework": [
+      "Define a client's and server's role in the client/server architecture",
+      "List the steps that a browser does when loading a website",
+      "Watch 'How the Internet Works in 5 Minutes'",
+      "Learn About Git Branches",
+      "Codeacademy JavaScript Course"
+    ]
+  },
 
-	{
-		"id": 6,
-		"title": "JavaScript Core I - 2",
-		"objectives": ["Booleans", "Comparison Operators", "Conditionals", "Logical Operators", "Loops", "Arrays"],
-		"coursework": ["Understanding Boolean Values", "Use Conditional Logic with If Statements", 
-		               "Comparison Operators", "Else and Else If Statements"]
-	},
+  {
+    "id": 10,
+    "title": "JavaScript Core III - 1",
+    "objectives": [
+      "Debugging",
+      "Why is Debugging Important?",
+      "The Debugging Mindset",
+      "Types of Errors",
+      "The Debugging Framework"
+    ],
+    "coursework": [
+      "Install ESLint",
+      "Thinking like a Programmer",
+      "TV Show Project"
+    ]
+  },
 
+  {
+    "id": 11,
+    "title": "JavaScript Core III - 2",
+    "objectives": [
+      "Fetch, AJAX, APIs",
+      "Methods",
+      "Headers",
+      "Status codes",
+      "Content type",
+      "What are APIs and how to interact with them"
+    ],
+    "coursework": [
+      "APIs",
+      "How to use the fetch API to do AJAX calls",
+      "Headers",
+      "Status codes",
+      "Content type",
+      "How to use fetch to do network requests"
+    ]
+  },
 
-	{
-		"id": 7,
-		"title": "JavaScript Core I - 3",
-		"objectives": ["Manipulating Arrays and Objects", "Array properties and methods", "Array map", "Array forEach",
-                       "Array filter", "Array find"],
-		"coursework": ["Access an Array's Contents Using Bracket Notation", "push() and pop()", "shift() and unshift()", 
-		               "splice() and slice()", "The Spread Operator",
-			       "Add Key-Value Pairs to JavaScript Objects", "Access Property Names with Bracket Notation", 
-			       "Iterate Through the Keys of an Object with a for...in Statement",
-			       "Generate an Array of All Object Keys with Object.keys()"
-		]
-	},
-	{
-		"id": 8,
-		"title": "JavaScript Core II - 1",
-		"objectives": ["Define what an object is in JavaScript", "Objects Get and Set", "Objects built-in methods"],
-		"coursework": ["Changing the properties of an object", "Retrieve data from an object", "Methods inside JavaScript objects", "Arrays of Objects", 
-		               "Loop through an object", "Read and Watch JavaScript Object tutorial", "Git and the Command Line"]
-	},
-	{
-		"id": 9,
-		"title": "JavaScript Core II - 2",
-		"objectives": ["The DOM", "Define what the DOM is", "Use query selectors to retrieve elements",
-			       "Use event listeners to respond to events", "Create DOM elements using JavaScript", "Manipulate DOM elements"
-		],
-		"coursework": ["JavaScript and the DOM", "DOM access methods", "DOM modification", "DOM events", 
-		               "Eloquent JavaScript - The Document Object Model", "Coding Train - HTML/CSS/DOM"]
-	},
-	{
-		"id": 10,
-		"title": "JavaScript Core II - 3",
-		"objectives": ["Synchronous and Asynchronous programming", "Define the difference between synchronous and asynchronous code",
-			"The Callstack", "Callbacks", "How does the web work?", "Client/Server architecture"
-		],
-		"coursework": ["Define a client's and server's role in the client/server architecture",
-			"List the steps that a browser does when loading a website", "Watch 'How the Internet Works in 5 Minutes'",
-			"Learn About Git Branches", "Codeacademy JavaScript Course"
-		]
-	},
+  {
+    "id": 12,
+    "title": "JavaScript Core III - 3",
+    "objectives": [
+      "Scope and this",
+      "Variable, Global and Block Scopes",
+      "Local Variables",
+      "Nesting",
+      "Array Destructuring",
+      "Destructuring syntax"
+    ],
+    "coursework": [
+      "FreeCodeCamp's Introduction To Array Destructuring",
+      "Why Is Array/Object Destructuring So Useful",
+      "The Most In-Depth Yet Understandable ES6 Destructuring Tutorial"
+    ]
+  },
 
-	{
-		"id": 11,
-		"title": "JavaScript Core III - 1",
-		"objectives": ["Debugging",
-			"Why is Debugging Important?",
-			"The Debugging Mindset",
-			"Types of Errors",
-			"The Debugging Framework"
-		],
-		"coursework": ["Install ESLint",
-			"Thinking like a Programmer",
-			"TV Show Project"
-		]
-	},
+  {
+    "id": 13,
+    "title": "TV Show Project",
+    "objectives": [
+      "Design a web app which shows details of all of the episodes of a TV show"
+    ],
+    "coursework": [
+      "Where do I get the TV episode data from?",
+      "TV Show Project - Levels 100 through to 999"
+    ]
+  },
 
-	{
-		"id": 12,
-		"title": "JavaScript Core III - 2",
-		"objectives": ["Fetch, AJAX, APIs", "Methods", "Headers", "Status codes", "Content type", "What are APIs and how to interact with them"],
-		"coursework": ["APIs", "How to use the fetch API to do AJAX calls", "Headers", "Status codes", "Content type",
-			       "How to use fetch to do network requests"
-		]
-	},
+  {
+    "id": 14,
+    "title": "React - 1",
+    "objectives": [
+      "What is React?",
+      "What is a component?",
+      "Rendering with React",
+      "JSX and Embedding JavaScript into JSX",
+      "Let us create a React app",
+      "React Components"
+    ],
+    "coursework": [
+      "CYF Hotel app",
+      "Deploying apps on Netlify",
+      "Creating JSX Elements",
+      "Render HTML Elements to the DOM",
+      "Define an HTML Class in JSX",
+      "Learn About Self-Closing JSX Tags",
+      "Create a Stateless Functional Component"
+    ]
+  },
 
-	{
-		"id": 13,
-		"title": "JavaScript Core III - 3",
-		"objectives": ["Scope and this", "Variable, Global and Block Scopes", "Local Variables", "Nesting", "Array Destructuring", "Destructuring syntax"],
-		"coursework": ["FreeCodeCamp's Introduction To Array Destructuring", "Why Is Array/Object Destructuring So Useful",
-			       "The Most In-Depth Yet Understandable ES6 Destructuring Tutorial"
-		]
-	},
+  {
+    "id": 15,
+    "title": "React - 2",
+    "objectives": [
+      "Event Handlers",
+      "Passing Functions as Props",
+      "Re-rendering components",
+      "State",
+      "React Hooks",
+      "Using useState"
+    ],
+    "coursework": [
+      "CYF Hotel app",
+      "High Score Table app",
+      "Baby Names Picker app"
+    ]
+  },
 
-	{
-		"id": 14,
-		"title": "TV Show Project",
-		"objectives": ["Design a web app which shows details of all of the episodes of a TV show"],
-		"coursework": ["Where do I get the TV episode data from?",
-			       "TV Show Project - Levels 100 through to 999"
-		]
-	},
+  {
+    "id": 16,
+    "title": "React - 3",
+    "objectives": [
+      "Fetching Data in React",
+      "useEffect()",
+      "Conditional rendering",
+      "Forms",
+      "useState()"
+    ],
+    "coursework": ["Countries app", "Job Listing app", "TFL Lines Challenge"]
+  },
 
-	{
-		"id": 15,
-		"title": "React - 1",
-		"objectives": ["What is React?",
-			"What is a component?",
-			"Rendering with React",
-			"JSX and Embedding JavaScript into JSX",
-			"Let us create a React app",
-			"React Components"
-		],
-		"coursework": ["CYF Hotel app",
-			"Deploying apps on Netlify",
-			"Creating JSX Elements",
-			"Render HTML Elements to the DOM",
-			"Define an HTML Class in JSX",
-			"Learn About Self-Closing JSX Tags",
-			"Create a Stateless Functional Component"
-		]
-	},
+  {
+    "id": 17,
+    "title": "Node - 1",
+    "objectives": [
+      "Define what an API is used for",
+      "Use Glitch to deploy and edit express servers",
+      "Using npm to start a node server",
+      "Explain what express is",
+      "Use express to create an API",
+      "Implement routing and query params"
+    ],
+    "coursework": [
+      "Quote Server API Project",
+      "Watch Express JavaScript Crash Course",
+      "Chrome Dev Tools"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Node - II",
+    "objectives": [
+      "Define what each part of CRUD is and what it does",
+      "Process API requests using Express and Node",
+      "Process GET, POST, PUT and DELETE requests",
+      "Nodemon"
+    ],
+    "coursework": ["Chat Server API Project"]
+  },
 
-	{
-		"id": 16,
-		"title": "React - 2",
-		"objectives": ["Event Handlers", "Passing Functions as Props",
-			       "Re-rendering components",
-			       "State", "React Hooks", "Using useState"
-		],
-		"coursework": ["CYF Hotel app", "High Score Table app",
-			       "Baby Names Picker app"
-		]
-	},
-
-	{
-		"id": 17,
-		"title": "React - 3",
-		"objectives": ["Fetching Data in React", "useEffect()", "Conditional rendering", "Forms", "useState()"
-		],
-		"coursework": ["Countries app",
-			       "Job Listing app",
-			       "TFL Lines Challenge"
-		]
-	},
-
-	{
-		"id": 18,
-		"title": "Node - 1",
-		"objectives": ["Define what an API is used for", "Use Glitch to deploy and edit express servers",
-		               "Using npm to start a node server", "Explain what express is", 
-		               "Use express to create an API", "Implement routing and query params"],
-		"coursework": ["Quote Server API Project", "Watch Express JavaScript Crash Course", "Chrome Dev Tools"]
-	},
-	{
-		"id": 19,
-		"title": "Node - II",
-		"objectives": ["Define what each part of CRUD is and what it does", "Process API requests using Express and Node",
-			       "Process GET, POST, PUT and DELETE requests", "Nodemon"
-		],
-		"coursework": ["Chat Server API Project"]
-	},
-
-	{
-		"id": 20,
-		"title": "Node - III",
-		"objectives": ["Process a PUT request using Express and Node to update data in memory",
-			       "Upload node apps to be accessed anywhere using Heroku", "Heroku"
-		],
-		"coursework": ["Building an API for the Hotel Server"]
-	}
-
+  {
+    "id": 19,
+    "title": "Node - III",
+    "objectives": [
+      "Process a PUT request using Express and Node to update data in memory",
+      "Upload node apps to be accessed anywhere using Heroku",
+      "Heroku"
+    ],
+    "coursework": ["Building an API for the Hotel Server"]
+  }
 ]

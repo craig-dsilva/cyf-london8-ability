@@ -11,7 +11,7 @@ const App = () => {
   const [subjectId, setSubjectId] = useState();
 
   useEffect(() => {
-    fetch(`https://cyf-london8-ability-app.glitch.me/api/`)
+    fetch(`http://localhost:3001/api`)
       .then((res) => res.json())
       .then((data) => setdata(data));
   }, []);
