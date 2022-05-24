@@ -42,7 +42,6 @@ li {
   background-color: rgb(150, 1, 225);
   color: #fff;
   font-weight: bold;
-  padding-bottom: 5em;
 }
 .footerUl {
   display: flex;
@@ -57,7 +56,22 @@ li {
   font-size: 1.3em;
 }
 .header-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
   margin: 1em;
   grid-gap: 1em;
+}
+
+.module-button {
+  background-color: #4287f5; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container {
+    grid-template-columns: repeat(2, auto);
+  }
 }

@@ -7,13 +7,13 @@ const Header = ({ data, moduleHandler }) => {
       <div className="header-container">
         {data.map((module) => {
           return (
-            <div
-              className="module"
+            <button
+              className="module-button"
               key={module.id}
               onClick={() => moduleHandler(module.id)}
             >
-              <button>{module.title}</button>
-            </div>
+              {module.title}
+            </button>
           );
         })}
       </div>
