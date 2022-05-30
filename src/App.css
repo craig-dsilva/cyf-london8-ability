@@ -1,20 +1,25 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap');
+
 body {
   margin: 0;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+  
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: rgb(150, 1, 225);
+  font-family: 'Rubik', sans-serif;
 }
 ul {
   display: flex;
@@ -34,7 +39,7 @@ li {
   /* grid-template-columns: repeat(4, auto); */
   grid-template-rows: auto;
   grid-template-columns: 1fr;
-  background-color: rgb(193, 240, 159);
+  background:rgb(193, 240, 159);
   grid-gap: 1em;
   margin-bottom: 0;
 }
@@ -54,6 +59,7 @@ li {
 }
 .main {
   font-size: 1.3em;
+
 }
 .header-container {
   display: grid;
@@ -63,13 +69,31 @@ li {
 }
 
 .module-button {
-  background-color: #4287f5; /* Green */
+  background: linear-gradient(180deg, rgb(252, 47, 47) 0%, rgb(194, 23, 14) 50%, rgb(147, 4, 4) 100%);
   border: none;
-  color: white;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   cursor: pointer;
+  font-weight: bolder;
 }
-
+.module-button:hover{
+  background: rgb(228, 35, 35);
+  transition: .8s ease-in-out;
+  
+}
+.container h3{
+  color:rgb(147, 9, 174)
+}
+.objectives{
+  background: linear-gradient(90deg, rgb(250, 187, 69) 20%, transparent 100%);
+}
+.courseWork{
+  background: linear-gradient(270deg, rgb(250, 187, 69) 20%, transparent 100%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
 @media screen and (max-width: 900px) {
   .header-container {
     grid-template-columns: repeat(2, auto);

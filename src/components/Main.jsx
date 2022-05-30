@@ -8,7 +8,7 @@ const Main = ({ subject }) => {
         <h3>Objectives</h3>
         {subject.objectives.map((objective, index) => {
           return (
-            <ul key={index}>
+            <ul key={index} className='objectives'>
               <li>{objective}</li>
             </ul>
           );
@@ -16,7 +16,7 @@ const Main = ({ subject }) => {
         <h3>Coursework</h3>
         {subject.coursework.map((work, index) => {
           return (
-            <ul key={index}>
+            <ul key={index} className='courseWork'>
               <li>{work}</li>
             </ul>
           );
